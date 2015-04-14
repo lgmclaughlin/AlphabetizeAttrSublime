@@ -16,7 +16,7 @@ Installation
 ============
 For now, the package can only be installed through the following method:
 
-1. Download [EscapeHTML.sublime-package]
+1. Download [AlphabetizeAttr.sublime-package]
 2. Place package into 
   * Windows: %APPDATA%\Sublime Text [version]\Installed Packages
   * OS X:    ~/Library/Application Support/Sublime Text [version]/Installed Packages
