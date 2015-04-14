@@ -4,7 +4,9 @@ This is a simple packaged plugin for Sublime Text that will allow one to alphabi
 
 Usage
 =====
-Highlight tag (or use multiple selection for multiple tags) and press ctrl + alt + a (super + alt + eafor OS X). Alternatively, open the Selection Menu and click Alphabetize Attributes.
+Highlight tag (or use multiple selection for multiple tags) and press ctrl + alt + a (super + alt + a for OS X). Alternatively, open the Selection Menu and click Alphabetize Attributes.
+
+In each region of selection, the plugin will find the FIRST tag in said region and alphabetize the tags from only that tag. Everything else will remained unchanged. If no tag is found or a tag is started but never finished, nothing will be changed.
 
 Motivation
 ==========

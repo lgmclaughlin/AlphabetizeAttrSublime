@@ -1,0 +1,12 @@
+[
+	{
+		"id": "selection",
+		"children": [
+			{
+				"id": "alphabetizeattr",
+				"caption": "Alphabetize Attributes",
+				"command": "alphabetize_attr"
+			}
+		]
+	}
+]
