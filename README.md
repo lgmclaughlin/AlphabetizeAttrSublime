@@ -1,12 +1,10 @@
 Synopsis
 ========
-This is a simple packaged plugin for Sublime Text that will allow one to alphabitize html attributes inside a tag. Simply highlight the tag you would like alphabitized (multiple region selection is allowed) quickly by hitting [ctrl + alt + a].
+This is a simple packaged plugin for Sublime Text that will allow one to alphabitize html attributes inside a tag. Simply highlight the HTML tags that have attributes you would like alphabitized quickly by hitting [ctrl + alt + a].
 
 Usage
 =====
-Highlight tag (or use multiple selection for multiple tags) and press ctrl + alt + a (super + alt + a for OS X). Alternatively, open the Selection Menu and click Alphabetize Attributes.
-
-In each region of selection, the plugin will find the FIRST tag in said region and alphabetize the tags from only that tag. Everything else will remained unchanged. If no tag is found or a tag is started but never finished, nothing will be changed.
+Highlight the segment of HTML that has the tags containing attributes you would like alphabetized and press ctrl + alt + a (super + alt + a for OS X). Alternatively, open the Selection Menu and click Alphabetize Attributes. 
 
 Motivation
 ==========
