@@ -78,9 +78,11 @@ class AlphabetizeAttrCommand(sublime_plugin.TextCommand):
                             elif curr == searchFor: 
                                 searchFor = None
                             currAttr += curr
-                        # If a space is found and we're not searching,
+                        # If a newline, slash, or space is found and we're not searching,
                         # mark the attribute as finished and add to markup
-                        elif curr == " " and searchFor == None:
+                        elif (curr == "\n" or 
+                              curr == "/"  or
+                              curr == " ") and searchFor == None:
                             currMarkup = curr
                             insideAttr = False
                         # If a [>] is found and we're not searching,
