@@ -139,8 +139,8 @@ class AlphabetizeAttrCommand(sublime_plugin.TextCommand):
 					# move on to combination of arrays and alphabetization
 					
 					# Alphabetize the attributes only if we finished outside of
-					# the tag
-					if not insideTag:
+					# the tag and if we are not in a comment
+					if not insideTag and (markup[0][1] != "!"):
 						attributes.sort()
 
 					# Use the markup state to alternate between the markup and
